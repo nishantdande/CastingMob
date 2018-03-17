@@ -1,0 +1,21 @@
+<configuration>
+    <appender name="file" class="ch.qos.logback.core.FileAppender">
+        <file>/sdcard/Android/data/com.castingmob/log/casting.log</file>
+        <append>true</append>
+        <encoder>
+            <pattern>%-4relative [%thread] %-5level %logger{35} %d{MM-dd-yyyy hh:mm:ss} - %msg%n</pattern>
+        </encoder>
+    </appender>
+
+    <appender name="logcat" class="ch.qos.logback.classic.android.LogcatAppender">
+        <append>true</append>
+        <encoder>
+            <pattern>%msg%n</pattern>
+        </encoder>
+    </appender>
+
+    <root level="DEBUG">
+        <!--<appender-ref ref="file" />-->
+        <appender-ref ref="logcat" />
+    </root>
+</configuration>

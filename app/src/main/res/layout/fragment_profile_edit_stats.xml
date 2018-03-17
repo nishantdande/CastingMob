@@ -1,0 +1,202 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/background"
+    android:orientation="vertical">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/control_button">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:layout_margin="16dp"
+            android:background="@android:color/white"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/white_60"
+                android:padding="10dp"
+                android:text="Rates"
+                android:textColor="@android:color/black"
+                android:textSize="20sp"
+                android:textStyle="bold"/>
+
+            <include
+                android:id="@+id/min_hour_rates"
+                layout="@layout/layout_rate"/>
+
+            <include
+                android:id="@+id/max_half_rates"
+                layout="@layout/layout_rate"/>
+
+            <include
+                android:id="@+id/min_half_day_rates"
+                layout="@layout/layout_rate"/>
+
+            <include
+                android:id="@+id/max_half_day_rates"
+                layout="@layout/layout_rate"/>
+
+            <include
+                android:id="@+id/min_full_day_rates"
+                layout="@layout/layout_rate"/>
+
+            <include
+                android:id="@+id/max_full_day_rates"
+                layout="@layout/layout_rate"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/white_60"
+                android:padding="10dp"
+                android:text="@string/profile.stats.travel"
+                android:textColor="@android:color/black"
+                android:textSize="20sp"
+                android:textStyle="bold"/>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="0.4"
+                    android:padding="10dp"
+                    android:text="Will Travel"
+                    android:textColor="@android:color/black"
+                    android:textSize="20sp"/>
+
+                <android.support.v7.widget.SwitchCompat
+                    android:id="@+id/travelValue"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentRight="true"
+                    android:layout_centerVertical="true"
+                    android:background="@android:color/white"
+                    android:gravity="right"/>
+
+
+            </RelativeLayout>
+
+            <include
+                android:id="@+id/distance_travel"
+                layout="@layout/layout_rate"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/white_60"
+                android:padding="10dp"
+                android:text="@string/profile.stats.signed"
+                android:textColor="@android:color/black"
+                android:textSize="20sp"
+                android:textStyle="bold"/>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="0.4"
+                    android:padding="10dp"
+                    android:text="Signed?"
+                    android:textColor="@android:color/black"
+                    android:textSize="20sp"/>
+
+                <android.support.v7.widget.SwitchCompat
+                    android:id="@+id/signedValue"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentRight="true"
+                    android:layout_centerVertical="true"
+                    android:background="@android:color/white"
+                    android:gravity="right"/>
+
+
+
+            </RelativeLayout>
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/white_60"
+                android:padding="10dp"
+                android:text="@string/profile.stats.about"
+                android:textColor="@android:color/black"
+                android:textSize="20sp"
+                android:textStyle="bold"/>
+
+            <EditText
+                android:id="@+id/about_value"
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:background="@android:color/white"
+                android:padding="15dp"/>
+
+        </LinearLayout>
+    </ScrollView>
+
+    </RelativeLayout>
+
+    <LinearLayout
+        android:id="@+id/control_button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginLeft="16dp"
+        android:layout_marginRight="16dp"
+        android:background="@android:color/white"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/info"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:layout_weight="1"
+            android:background="@android:color/black"
+            android:gravity="center"
+            android:padding="15dp"
+            android:text="@string/info"
+            android:textAllCaps="true"
+            android:textColor="@android:color/white"
+            android:textSize="20sp"
+            android:textStyle="bold"/>
+
+        <TextView
+            android:id="@+id/done"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:layout_weight="1"
+            android:background="@android:color/black"
+            android:gravity="center"
+            android:padding="15dp"
+            android:text="@string/done"
+            android:textAllCaps="true"
+            android:textColor="@android:color/white"
+            android:textSize="20sp"
+            android:textStyle="bold"/>
+
+    </LinearLayout>
+</RelativeLayout>

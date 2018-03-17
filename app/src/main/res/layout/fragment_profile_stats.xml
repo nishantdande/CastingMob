@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <include
+                android:id="@+id/gender_card"
+                layout="@layout/profile_card"/>
+
+            <include
+                android:id="@+id/age_card"
+                layout="@layout/profile_card"/>
+
+            <include
+                android:id="@+id/weight_card"
+                layout="@layout/profile_card"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <include
+                android:id="@+id/height_card"
+                layout="@layout/profile_card"/>
+
+            <include
+                android:id="@+id/waist_card"
+                layout="@layout/profile_card"
+                />
+
+            <include
+                android:id="@+id/chest_card"
+                layout="@layout/profile_card"/>
+
+            <include
+                android:id="@+id/hip_card"
+                layout="@layout/profile_card"
+                />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <include
+                android:id="@+id/eye_color_card"
+                layout="@layout/profile_card"/>
+
+            <include
+                android:id="@+id/ethinicity_card"
+                layout="@layout/profile_card"/>
+
+            <include
+                android:id="@+id/hair_color_card"
+                layout="@layout/profile_card"
+                />
+        </LinearLayout>
+    </LinearLayout>
+</ScrollView>
+

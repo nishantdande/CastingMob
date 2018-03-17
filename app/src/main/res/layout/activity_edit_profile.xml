@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.design.widget.CoordinatorLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/toolbar"
+        android:minHeight="?attr/actionBarSize"
+        android:background="@android:color/black"
+        android:layout_width="match_parent"
+        android:layout_height="64dp">
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:id="@+id/navigateBack"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:background="@android:drawable/screen_background_dark_transparent"
+                android:textColor="@android:color/white"
+                android:textSize="18sp"
+                android:text="Back"/>
+
+            <TextView
+                android:id="@+id/title"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:textSize="18sp"
+                android:textColor="@android:color/white"
+                android:text="Edit Profile Details"/>
+
+        </RelativeLayout>
+
+    </android.support.v7.widget.Toolbar>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="64dp"
+
+        android:orientation="vertical">
+
+        <EditText
+            android:id="@+id/textViewOnly"
+            android:layout_width="match_parent"
+            android:layout_height="150dp"
+            android:padding="10dp"
+            android:textSize="16sp"
+            android:visibility="gone"
+            android:layout_margin="@dimen/activity_horizontal_margin"
+            android:background="@drawable/black_border">
+        </EditText>
+
+        <include
+            android:id="@+id/textEditView"
+            android:visibility="gone"
+            layout="@layout/layout_text_edit_view"
+            />
+
+        <include
+            android:id="@+id/milesTextEditView"
+            android:visibility="gone"
+            layout="@layout/layout_text_edit_view_number"
+            />
+
+        <include
+            android:id="@+id/genderView"
+            android:visibility="gone"
+            layout="@layout/layout_gender_view"
+        />
+
+
+        <LinearLayout
+            android:id="@+id/twoTextEditView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:visibility="gone"
+            android:orientation="vertical"
+            android:layout_margin="@dimen/activity_horizontal_margin">
+
+            <include
+                android:id="@+id/maxRateView"
+                layout="@layout/layout_text_edit_view_number"
+                />
+
+            <include
+                android:id="@+id/minRateView"
+                layout="@layout/layout_text_edit_view_number"
+                />
+
+        </LinearLayout>
+
+        <RelativeLayout
+            android:id="@+id/switchView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:visibility="gone"
+            android:layout_margin="@dimen/activity_horizontal_margin">
+
+            <TextView
+                android:id="@+id/textName"
+                android:text="Will Travel"
+                android:textSize="18sp"
+                android:textColor="@android:color/black"
+                android:layout_centerVertical="true"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+
+            <android.support.v7.widget.SwitchCompat
+                android:id="@+id/willTravelSwitch"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"/>
+
+        </RelativeLayout>
+
+
+        <Button
+            android:id="@+id/done"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/activity_horizontal_margin"
+            android:background="@android:color/black"
+            android:textColor="@android:color/white"
+            android:textSize="18sp"
+            android:text="Done"/>
+    </LinearLayout>
+
+
+
+</android.support.design.widget.CoordinatorLayout>

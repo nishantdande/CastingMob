@@ -1,0 +1,159 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              xmlns:segmentedgroup="http://schemas.android.com/apk/res-auto"
+              android:orientation="vertical"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.5"
+            android:text="@string/name_filter_type_label"/>
+
+        <TextView
+            android:id="@+id/select_filter_type"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1.5"
+            android:text="any"/>
+
+    </LinearLayout>
+
+    <info.hoang8f.android.segmented.SegmentedGroup
+        android:id="@+id/segmented3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:orientation="horizontal"
+        segmentedgroup:sc_border_width="1dp"
+        segmentedgroup:sc_corner_radius="5dp"
+        segmentedgroup:sc_tint_color="@android:color/black">
+
+        <RadioButton
+            android:id="@+id/rbtnMale"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Male"
+            style="@style/RadioButton" />
+
+        <RadioButton
+            android:id="@+id/rbtnFemales"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Female"
+            style="@style/RadioButton" />
+
+        <RadioButton
+            android:id="@+id/rbtnBoth"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Both"
+            style="@style/RadioButton" />
+    </info.hoang8f.android.segmented.SegmentedGroup>
+
+    <TextView
+        android:id="@+id/age_range"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="10dp"
+        android:text="Select Age Range"
+        android:textColor="@android:color/black"
+        />
+
+    <EditText
+        android:id="@+id/locality"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/white_border"
+        android:hint="City, State, Country"
+        android:padding="10dp"
+        android:singleLine="true"
+        android:imeActionLabel="Done"
+        android:imeOptions="actionDone"
+        android:textColor="@android:color/black"
+        />
+
+    <TextView
+        android:id="@+id/nationality"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="10dp"
+        android:text="@string/dialog_nationality_title"
+        android:textColor="@android:color/black"
+        />
+
+    <TextView
+        android:id="@+id/hair_color"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="10dp"
+        android:text="@string/dialog_hair_color_title"
+        android:textColor="@android:color/black"
+        />
+
+    <TextView
+        android:id="@+id/eye_color"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="10dp"
+        android:text="@string/dialog_eye_color_title"
+        android:textColor="@android:color/black"
+        />
+
+
+
+    <TextView
+        android:id="@+id/height_range"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="10dp"
+        android:text="Select Height Range"
+        android:textColor="@android:color/black"
+        />
+
+    <TextView
+        android:id="@+id/weight_range"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="10dp"
+        android:text="Select Weight Range"
+        android:textColor="@android:color/black"
+        />
+
+    <TextView
+        android:id="@+id/chest_range"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="10dp"
+        android:text="@string/dialog_chest_title"
+        android:textColor="@android:color/black"
+        />
+
+    <TextView
+        android:id="@+id/hip_range"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="10dp"
+        android:text="@string/dialog_hip_title"
+        android:textColor="@android:color/black"
+        />
+
+    <TextView
+        android:id="@+id/waist_range"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="10dp"
+        android:text="@string/dialog_waist_title"
+        android:textColor="@android:color/black"
+        />
+
+</LinearLayout>

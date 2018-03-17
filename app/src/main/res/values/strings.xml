@@ -1,0 +1,169 @@
+<resources>
+    <string name="app_name">CastingMOB</string>
+    <string name="app_url">http://52.38.53.194:8080/</string>
+    <string name="action_settings">Settings</string>
+    <string name="user.selection.type.model">Model</string>
+    <string name="user.selection.type.photography">Photographer</string>
+    <string name="user.selection.type.makeup_artist">Makeup Artist</string>
+    <string name="user.selection.type.stylist">Stylist</string>
+
+    <string name="sign_up_email_text">Sign up with your email</string>
+    <string name="sign_up_website_text">Website</string>
+    <string name="sign_up_continuing_text">By Continuing, you consent to our</string>
+    <string name="sign_up_terms_text">Terms of Service and Privacy Policy</string>
+    <string name="sign_up_signup_button_text">Sign Up</string>
+    <string name="activation_code_text">Enter Activation Code</string>
+    <string name="activate_button_text">Activate</string>
+    <string name="password_new_password_text">Set Password</string>
+    <string name="set_password_confirm_text">Confirm Password</string>
+    <string name="set_password_button_text">Set Password</string>
+    <string name="field_blank_error_message">This field cannot be blank</string>
+    <string name="email_validation_error_message">Enter valid email</string>
+    <string name="password_match_error_message">Confirm password did not match.</string>
+    <string name="password_limit_error_message">Password characters limit should be come between 6–20</string>
+    <string name="password_alpha_numeric_error_message">Password must contain alpha numeric characters.</string>
+    <string name="open_screen_exist_message">Do you want to Exist from Casting MOB</string>
+    <string name="open_screen_exist_title">Alert</string>
+    <string name="open_screen_exist_yes_button">Yes</string>
+    <string name="open_screen_exist_no_button">No</string>
+
+    <string name="demo_min_label"></string>
+    <string name="demo_max_label"></string>
+    <string name="dialog_nationality_title">Select Nationality</string>
+    <string name="dialog_hair_color_title">Select Hair Color</string>
+    <string name="dialog_eye_color_title">Select Eye Color</string>
+    <string name="dialog_chest_title">Select Chest Range</string>
+    <string name="dialog_hip_title">Select Hips Range</string>
+    <string name="dialog_waist_title">Select Waist Range</string>
+    <string name="dialog_select_type_title">Select Type</string>
+    <string name="detail_title_string">"%d photos"</string>
+    <string name="style_weight">%d pounds</string>
+    <string name="style_others">%d\'\'</string>
+    <string name="string_done">Done</string>
+    <string name="dialog_select_feed_type_title">Select Feed type</string>
+    <string name="news_feed_more_button">more...</string>
+    <string name="button_filter_clear_text">Clear</string>
+    <string name="button_filter_apply_text">Apply</string>
+    <string name="name_filter_type_label">Search For</string>
+    <string name="name_filter_name_hint">Name</string>
+    <string name="casting_detail_age">Age : %d</string>
+    <string name="casting_detail_sex">Sex : %s</string>
+    <string name="message_toolbar_title">Chats</string>
+    <string name="like_count">%d Like</string>
+    <string name="comment_count">%d Comment</string>
+    <string name="feed.tab.models">Models</string>
+    <string name="feed.tab.photographer">Photographer</string>
+    <string name="feed.tab.muas">MUAs</string>
+    <string name="feed.tab.stylists">Stylists</string>
+    <string name="profile.about.title">About</string>
+    <string name="profile.blank">---</string>
+    <string name="profile.rates.blank">$0 - $0</string>
+    <string name="profile.rates">\u0024%1$d - \u0024%2$d</string>
+    <string name="profile.stats.gender.title">Gender</string>
+    <string name="profile.stats.age.title">Age</string>
+    <string name="profile.stats.height.title">Height</string>
+    <string name="profile.stats.weight.title">Weight</string>
+    <string name="profile.stats.chest.title">Chest</string>
+    <string name="profile.stats.eye.color.title">Eye Color</string>
+    <string name="profile.stats.ethinicity.title">Ethinicity</string>
+    <string name="profile.stats.name.title">Name</string>
+    <string name="profile.stats.waist.title">Waist</string>
+    <string name="profile.stats.hip.title">Hips</string>
+    <string name="profile.stats.hair.color.title">Hair Color</string>
+    <string name="profile.stats.city.title">City</string>
+    <string name="profile.stats.country.title">Country</string>
+    <string name="profile.tab.title.about">About</string>
+    <string name="profile.tab.title.info">Info</string>
+    <string name="profile.tab.title.stats">Stats</string>
+    <string name="profile.tab.title.genres">Genres</string>
+    <string name="profile.tab.title.rates">Rates</string>
+    <string name="done">done</string>
+    <string name="info">info</string>
+    <string name="profile.stats.travel">Travel</string>
+    <string name="profile.stats.signed">Signed</string>
+    <string name="profile.stats.about">About</string>
+    <string name="account.selection.type.any">Any</string>
+    <string name="account.selection.type.agent">Agent</string>
+    <string name="account.selection.type.client">Client</string>
+    <string name="profile.rates.hourly.title">Hourly</string>
+    <string name="profile.rates.half.day.title">Half Day</string>
+    <string name="profile.rates.full.day.title">Full Day</string>
+    <string name="profile.rates.miles.title">Miles</string>
+    <string name="profile.rates.wiil.travel.title">Will Travel</string>
+    <string name="profile.stats.rates.min.hour.title">Minimum Hour Rate</string>
+    <string name="profile.stats.rates.max.hour.title">Maximum Hour Rate</string>
+    <string name="profile.stats.rates.min.half.title">Minimum Half Day Rate</string>
+    <string name="profile.stats.rates.max.half.title">Maximum Half Day Rate</string>
+    <string name="profile.stats.rates.min.full.title">Minimum Full Day Rate</string>
+    <string name="profile.stats.rates.max.full.title">Maximum Full Day Rate</string>
+
+    <string name="edit.profile.stats.rates.min.hour.title">Min Hour Rate</string>
+    <string name="edit.profile.stats.rates.max.hour.title">Max Hour Rate</string>
+    <string name="edit.profile.stats.rates.min.half.title">Min Half Day Rate</string>
+    <string name="edit.profile.stats.rates.max.half.title">Max Half Day Rate</string>
+    <string name="edit.profile.stats.rates.min.full.title">Min Full Day Rate</string>
+    <string name="edit.profile.stats.rates.max.full.title">Max Full Day Rate</string>
+    <string name="profile.stats.travel.distance">Distance you can travel</string>
+    <string name="tap.title.of.attributes.to.edit">Tap title of attributes to edit...</string>
+    <string name="block.content">Block Content!</string>
+    <string name="block.content.message">The Photo content objectionable content, report this
+        content to the administrator!
+    </string>
+    <string name="block_content_positive_button">Report</string>
+    <string name="block_content_negative_button">Cancel</string>
+
+    <string-array name="option">
+        <item>Photographer</item>
+        <item>Designer</item>
+    </string-array>
+
+    <string-array name="nationality">
+        <item>White</item>
+        <item>Black</item>
+        <item>Asian</item>
+        <item>Hispanic</item>
+        <item>Mixed</item>
+        <item>Other</item>
+    </string-array>
+
+    <string-array name="hair_color">
+        <item>Black</item>
+        <item>Brown</item>
+        <item>Blond</item>
+        <item>Grey</item>
+        <item>Red</item>
+        <item>Chestnut</item>
+    </string-array>
+
+    <string-array name="eye_color">
+        <item>Brown</item>
+        <item>Hazel</item>
+        <item>Blue</item>
+        <item>Green</item>
+        <item>Silver</item>
+        <item>Amber</item>
+    </string-array>
+
+
+    <string-array name="account_type">
+        <item>@string/account.selection.type.any</item>
+        <item>@string/user.selection.type.model</item>
+        <item>@string/account.selection.type.agent</item>
+        <item>@string/account.selection.type.client</item>
+    </string-array>
+
+    <string-array name="menu_option">
+        <item>Messages</item>
+        <item>Polaroid</item>
+        <item>Cover / Profile Photos</item>
+        <item>Profile Basic Info</item>
+        <item>Profile - Update Stat</item>
+        <item>Search Casting</item>
+        <item>Applied Casting</item>
+    </string-array>
+
+    <string-array name="feed_type">
+        <item>Photo\'s Feed</item>
+        <item>News Feed</item>
+    </string-array>
+</resources>

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:id="@+id/profile_photo" android:title="Profile Photo" />
+    <item android:id="@+id/cover_photo" android:title="Cover Photo" />
+    <item android:id="@+id/polaroid_photo" android:title="Polaroid Photo" />
+    <item android:id="@+id/cancel" android:title="Cancel" />
+</menu>
